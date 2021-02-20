@@ -1,0 +1,6 @@
+framework module Pods_InfluPeachTests {
+  umbrella header "Pods-InfluPeachTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

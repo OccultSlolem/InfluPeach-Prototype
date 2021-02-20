@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		237977ABAD33227F9A9F0CC5 /* Pods_InfluPeach_InfluPeachUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FADF36C82A95C8EF01979E5 /* Pods_InfluPeach_InfluPeachUITests.framework */; };
+		30DE3C90F1B98D254CDF129D /* Pods_InfluPeach.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4FBA351381EE0B0FD8ACF7 /* Pods_InfluPeach.framework */; };
+		32EBE26325E1ABAA00308CEC /* InfluPeachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBE26225E1ABAA00308CEC /* InfluPeachApp.swift */; };
+		32EBE26525E1ABAA00308CEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBE26425E1ABAA00308CEC /* ContentView.swift */; };
+		32EBE26725E1ABAC00308CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EBE26625E1ABAC00308CEC /* Assets.xcassets */; };
+		32EBE26A25E1ABAC00308CEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EBE26925E1ABAC00308CEC /* Preview Assets.xcassets */; };
+		32EBE27525E1ABAC00308CEC /* InfluPeachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBE27425E1ABAC00308CEC /* InfluPeachTests.swift */; };
+		32EBE28025E1ABAC00308CEC /* InfluPeachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBE27F25E1ABAC00308CEC /* InfluPeachUITests.swift */; };
+		C52FAB8887CF171DE9CFACED /* Pods_InfluPeachTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFD32C497AA0C2CA232FFA1 /* Pods_InfluPeachTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32EBE27125E1ABAC00308CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32EBE25725E1ABAA00308CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32EBE25E25E1ABAA00308CEC;
+			remoteInfo = InfluPeach;
+		};
+		32EBE27C25E1ABAC00308CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32EBE25725E1ABAA00308CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32EBE25E25E1ABAA00308CEC;
+			remoteInfo = InfluPeach;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22348BAB3A91862FECA2264C /* Pods-InfluPeachTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfluPeachTests.release.xcconfig"; path = "Target Support Files/Pods-InfluPeachTests/Pods-InfluPeachTests.release.xcconfig"; sourceTree = "<group>"; };
+		261FFD7FBBDE07D786BA1D7D /* Pods-InfluPeach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfluPeach.debug.xcconfig"; path = "Target Support Files/Pods-InfluPeach/Pods-InfluPeach.debug.xcconfig"; sourceTree = "<group>"; };
+		32EBE25F25E1ABAA00308CEC /* InfluPeach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfluPeach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EBE26225E1ABAA00308CEC /* InfluPeachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfluPeachApp.swift; sourceTree = "<group>"; };
+		32EBE26425E1ABAA00308CEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32EBE26625E1ABAC00308CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32EBE26925E1ABAC00308CEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32EBE26B25E1ABAC00308CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EBE27025E1ABAC00308CEC /* InfluPeachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfluPeachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EBE27425E1ABAC00308CEC /* InfluPeachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfluPeachTests.swift; sourceTree = "<group>"; };
+		32EBE27625E1ABAC00308CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EBE27B25E1ABAC00308CEC /* InfluPeachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfluPeachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EBE27F25E1ABAC00308CEC /* InfluPeachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfluPeachUITests.swift; sourceTree = "<group>"; };
+		32EBE28125E1ABAC00308CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		374CC36CD38F4B0E054BB298 /* Pods-InfluPeach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfluPeach.release.xcconfig"; path = "Target Support Files/Pods-InfluPeach/Pods-InfluPeach.release.xcconfig"; sourceTree = "<group>"; };
+		5743E54DB83487DF34B662B1 /* Pods-InfluPeach-InfluPeachUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfluPeach-InfluPeachUITests.debug.xcconfig"; path = "Target Support Files/Pods-InfluPeach-InfluPeachUITests/Pods-InfluPeach-InfluPeachUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FADF36C82A95C8EF01979E5 /* Pods_InfluPeach_InfluPeachUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfluPeach_InfluPeachUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4FBA351381EE0B0FD8ACF7 /* Pods_InfluPeach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfluPeach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CCEA88AA264FB0DB0CA114 /* Pods-InfluPeachTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfluPeachTests.debug.xcconfig"; path = "Target Support Files/Pods-InfluPeachTests/Pods-InfluPeachTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFFD32C497AA0C2CA232FFA1 /* Pods_InfluPeachTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfluPeachTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFAA1F241FA19B40508FB1F /* Pods-InfluPeach-InfluPeachUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfluPeach-InfluPeachUITests.release.xcconfig"; path = "Target Support Files/Pods-InfluPeach-InfluPeachUITests/Pods-InfluPeach-InfluPeachUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32EBE25C25E1ABAA00308CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DE3C90F1B98D254CDF129D /* Pods_InfluPeach.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EBE26D25E1ABAC00308CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52FAB8887CF171DE9CFACED /* Pods_InfluPeachTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EBE27825E1ABAC00308CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237977ABAD33227F9A9F0CC5 /* Pods_InfluPeach_InfluPeachUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		118A14CC5F7F678B4F2E4FA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				261FFD7FBBDE07D786BA1D7D /* Pods-InfluPeach.debug.xcconfig */,
+				374CC36CD38F4B0E054BB298 /* Pods-InfluPeach.release.xcconfig */,
+				5743E54DB83487DF34B662B1 /* Pods-InfluPeach-InfluPeachUITests.debug.xcconfig */,
+				EDFAA1F241FA19B40508FB1F /* Pods-InfluPeach-InfluPeachUITests.release.xcconfig */,
+				92CCEA88AA264FB0DB0CA114 /* Pods-InfluPeachTests.debug.xcconfig */,
+				22348BAB3A91862FECA2264C /* Pods-InfluPeachTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1AF05EDE0170E26368B4733A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F4FBA351381EE0B0FD8ACF7 /* Pods_InfluPeach.framework */,
+				5FADF36C82A95C8EF01979E5 /* Pods_InfluPeach_InfluPeachUITests.framework */,
+				BFFD32C497AA0C2CA232FFA1 /* Pods_InfluPeachTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32EBE25625E1ABAA00308CEC = {
+			isa = PBXGroup;
+			children = (
+				32EBE26125E1ABAA00308CEC /* InfluPeach */,
+				32EBE27325E1ABAC00308CEC /* InfluPeachTests */,
+				32EBE27E25E1ABAC00308CEC /* InfluPeachUITests */,
+				32EBE26025E1ABAA00308CEC /* Products */,
+				118A14CC5F7F678B4F2E4FA2 /* Pods */,
+				1AF05EDE0170E26368B4733A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32EBE26025E1ABAA00308CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32EBE25F25E1ABAA00308CEC /* InfluPeach.app */,
+				32EBE27025E1ABAC00308CEC /* InfluPeachTests.xctest */,
+				32EBE27B25E1ABAC00308CEC /* InfluPeachUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32EBE26125E1ABAA00308CEC /* InfluPeach */ = {
+			isa = PBXGroup;
+			children = (
+				32EBE26225E1ABAA00308CEC /* InfluPeachApp.swift */,
+				32EBE26425E1ABAA00308CEC /* ContentView.swift */,
+				32EBE26625E1ABAC00308CEC /* Assets.xcassets */,
+				32EBE26B25E1ABAC00308CEC /* Info.plist */,
+				32EBE26825E1ABAC00308CEC /* Preview Content */,
+			);
+			path = InfluPeach;
+			sourceTree = "<group>";
+		};
+		32EBE26825E1ABAC00308CEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32EBE26925E1ABAC00308CEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32EBE27325E1ABAC00308CEC /* InfluPeachTests */ = {
+			isa = PBXGroup;
+			children = (
+				32EBE27425E1ABAC00308CEC /* InfluPeachTests.swift */,
+				32EBE27625E1ABAC00308CEC /* Info.plist */,
+			);
+			path = InfluPeachTests;
+			sourceTree = "<group>";
+		};
+		32EBE27E25E1ABAC00308CEC /* InfluPeachUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32EBE27F25E1ABAC00308CEC /* InfluPeachUITests.swift */,
+				32EBE28125E1ABAC00308CEC /* Info.plist */,
+			);
+			path = InfluPeachUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32EBE25E25E1ABAA00308CEC /* InfluPeach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EBE28425E1ABAC00308CEC /* Build configuration list for PBXNativeTarget "InfluPeach" */;
+			buildPhases = (
+				5863B1768FC37E34873889D3 /* [CP] Check Pods Manifest.lock */,
+				32EBE25B25E1ABAA00308CEC /* Sources */,
+				32EBE25C25E1ABAA00308CEC /* Frameworks */,
+				32EBE25D25E1ABAA00308CEC /* Resources */,
+				9B5664FBA459B494E74688BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfluPeach;
+			productName = InfluPeach;
+			productReference = 32EBE25F25E1ABAA00308CEC /* InfluPeach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32EBE26F25E1ABAC00308CEC /* InfluPeachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EBE28725E1ABAC00308CEC /* Build configuration list for PBXNativeTarget "InfluPeachTests" */;
+			buildPhases = (
+				AEF3133175EDC95E7D312553 /* [CP] Check Pods Manifest.lock */,
+				32EBE26C25E1ABAC00308CEC /* Sources */,
+				32EBE26D25E1ABAC00308CEC /* Frameworks */,
+				32EBE26E25E1ABAC00308CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32EBE27225E1ABAC00308CEC /* PBXTargetDependency */,
+			);
+			name = InfluPeachTests;
+			productName = InfluPeachTests;
+			productReference = 32EBE27025E1ABAC00308CEC /* InfluPeachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32EBE27A25E1ABAC00308CEC /* InfluPeachUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EBE28A25E1ABAC00308CEC /* Build configuration list for PBXNativeTarget "InfluPeachUITests" */;
+			buildPhases = (
+				178A02E81D3DFE618CB76943 /* [CP] Check Pods Manifest.lock */,
+				32EBE27725E1ABAC00308CEC /* Sources */,
+				32EBE27825E1ABAC00308CEC /* Frameworks */,
+				32EBE27925E1ABAC00308CEC /* Resources */,
+				034AA3236899877DEB0A06A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32EBE27D25E1ABAC00308CEC /* PBXTargetDependency */,
+			);
+			name = InfluPeachUITests;
+			productName = InfluPeachUITests;
+			productReference = 32EBE27B25E1ABAC00308CEC /* InfluPeachUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32EBE25725E1ABAA00308CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					32EBE25E25E1ABAA00308CEC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					32EBE26F25E1ABAC00308CEC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 32EBE25E25E1ABAA00308CEC;
+					};
+					32EBE27A25E1ABAC00308CEC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 32EBE25E25E1ABAA00308CEC;
+					};
+				};
+			};
+			buildConfigurationList = 32EBE25A25E1ABAA00308CEC /* Build configuration list for PBXProject "InfluPeach" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32EBE25625E1ABAA00308CEC;
+			productRefGroup = 32EBE26025E1ABAA00308CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32EBE25E25E1ABAA00308CEC /* InfluPeach */,
+				32EBE26F25E1ABAC00308CEC /* InfluPeachTests */,
+				32EBE27A25E1ABAC00308CEC /* InfluPeachUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32EBE25D25E1ABAA00308CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EBE26A25E1ABAC00308CEC /* Preview Assets.xcassets in Resources */,
+				32EBE26725E1ABAC00308CEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EBE26E25E1ABAC00308CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EBE27925E1ABAC00308CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		034AA3236899877DEB0A06A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfluPeach-InfluPeachUITests/Pods-InfluPeach-InfluPeachUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfluPeach-InfluPeachUITests/Pods-InfluPeach-InfluPeachUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InfluPeach-InfluPeachUITests/Pods-InfluPeach-InfluPeachUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		178A02E81D3DFE618CB76943 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfluPeach-InfluPeachUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5863B1768FC37E34873889D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfluPeach-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B5664FBA459B494E74688BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfluPeach/Pods-InfluPeach-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfluPeach/Pods-InfluPeach-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InfluPeach/Pods-InfluPeach-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEF3133175EDC95E7D312553 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfluPeachTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32EBE25B25E1ABAA00308CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EBE26525E1ABAA00308CEC /* ContentView.swift in Sources */,
+				32EBE26325E1ABAA00308CEC /* InfluPeachApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EBE26C25E1ABAC00308CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EBE27525E1ABAC00308CEC /* InfluPeachTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32EBE27725E1ABAC00308CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EBE28025E1ABAC00308CEC /* InfluPeachUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32EBE27225E1ABAC00308CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32EBE25E25E1ABAA00308CEC /* InfluPeach */;
+			targetProxy = 32EBE27125E1ABAC00308CEC /* PBXContainerItemProxy */;
+		};
+		32EBE27D25E1ABAC00308CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32EBE25E25E1ABAA00308CEC /* InfluPeach */;
+			targetProxy = 32EBE27C25E1ABAC00308CEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32EBE28225E1ABAC00308CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32EBE28325E1ABAC00308CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32EBE28525E1ABAC00308CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261FFD7FBBDE07D786BA1D7D /* Pods-InfluPeach.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InfluPeach/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InfluPeach/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = InfluPeach.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32EBE28625E1ABAC00308CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374CC36CD38F4B0E054BB298 /* Pods-InfluPeach.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InfluPeach/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InfluPeach/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = InfluPeach.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32EBE28825E1ABAC00308CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CCEA88AA264FB0DB0CA114 /* Pods-InfluPeachTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				INFOPLIST_FILE = InfluPeachTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = InfluPeach.InfluPeachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfluPeach.app/InfluPeach";
+			};
+			name = Debug;
+		};
+		32EBE28925E1ABAC00308CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22348BAB3A91862FECA2264C /* Pods-InfluPeachTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				INFOPLIST_FILE = InfluPeachTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = InfluPeach.InfluPeachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfluPeach.app/InfluPeach";
+			};
+			name = Release;
+		};
+		32EBE28B25E1ABAC00308CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5743E54DB83487DF34B662B1 /* Pods-InfluPeach-InfluPeachUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				INFOPLIST_FILE = InfluPeachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = InfluPeach.InfluPeachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InfluPeach;
+			};
+			name = Debug;
+		};
+		32EBE28C25E1ABAC00308CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDFAA1F241FA19B40508FB1F /* Pods-InfluPeach-InfluPeachUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				INFOPLIST_FILE = InfluPeachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = InfluPeach.InfluPeachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InfluPeach;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32EBE25A25E1ABAA00308CEC /* Build configuration list for PBXProject "InfluPeach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EBE28225E1ABAC00308CEC /* Debug */,
+				32EBE28325E1ABAC00308CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EBE28425E1ABAC00308CEC /* Build configuration list for PBXNativeTarget "InfluPeach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EBE28525E1ABAC00308CEC /* Debug */,
+				32EBE28625E1ABAC00308CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EBE28725E1ABAC00308CEC /* Build configuration list for PBXNativeTarget "InfluPeachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EBE28825E1ABAC00308CEC /* Debug */,
+				32EBE28925E1ABAC00308CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EBE28A25E1ABAC00308CEC /* Build configuration list for PBXNativeTarget "InfluPeachUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EBE28B25E1ABAC00308CEC /* Debug */,
+				32EBE28C25E1ABAC00308CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32EBE25725E1ABAA00308CEC /* Project object */;
+}

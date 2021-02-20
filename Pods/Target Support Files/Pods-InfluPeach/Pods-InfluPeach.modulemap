@@ -1,0 +1,6 @@
+framework module Pods_InfluPeach {
+  umbrella header "Pods-InfluPeach-umbrella.h"
+
+  export *
+  module * { export * }
+}
