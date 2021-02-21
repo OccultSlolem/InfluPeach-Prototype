@@ -6,11 +6,18 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if Auth.auth().currentUser != nil {
+            //User is signed in
+            ProfileView()
+        } else {
+            //No user is signed in
+            TitleView()
+                .statusBar(hidden: true)
+        }
     }
 }
 

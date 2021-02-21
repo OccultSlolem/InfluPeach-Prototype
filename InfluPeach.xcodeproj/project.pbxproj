@@ -3,12 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		237977ABAD33227F9A9F0CC5 /* Pods_InfluPeach_InfluPeachUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FADF36C82A95C8EF01979E5 /* Pods_InfluPeach_InfluPeachUITests.framework */; };
 		30DE3C90F1B98D254CDF129D /* Pods_InfluPeach.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4FBA351381EE0B0FD8ACF7 /* Pods_InfluPeach.framework */; };
+		320D9B4325E1D7BA00A82BDB /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320D9B4225E1D7BA00A82BDB /* ResetPasswordView.swift */; };
+		32162B2F25E1AF6C0079EBA5 /* AuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32162B2E25E1AF6C0079EBA5 /* AuthHelper.swift */; };
+		32162B3825E1AFA20079EBA5 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32162B3725E1AFA20079EBA5 /* TitleView.swift */; };
+		32162B3D25E1B3CA0079EBA5 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32162B3C25E1B3CA0079EBA5 /* SignUpView.swift */; };
+		32162B4325E1B5550079EBA5 /* CustomStyledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32162B4225E1B5550079EBA5 /* CustomStyledTextField.swift */; };
+		32162B4B25E1B9510079EBA5 /* CustomStyledTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32162B4A25E1B9510079EBA5 /* CustomStyledTextButton.swift */; };
+		32162B5125E1BD7B0079EBA5 /* TermsPrivacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32162B5025E1BD7B0079EBA5 /* TermsPrivacy.swift */; };
+		32162B5625E1BF600079EBA5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32162B5525E1BF600079EBA5 /* ProfileView.swift */; };
+		32162B6325E1C5830079EBA5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32162B6225E1C5830079EBA5 /* GoogleService-Info.plist */; };
+		32162B6C25E1C7540079EBA5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32162B6B25E1C7540079EBA5 /* SignInView.swift */; };
+		32BE1EE125E1CBC500C6E8F5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE1EE025E1CBC500C6E8F5 /* Colors.swift */; };
+		32BE1EE625E1CDAC00C6E8F5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 32BE1EE525E1CDAC00C6E8F5 /* .gitignore */; };
 		32EBE26325E1ABAA00308CEC /* InfluPeachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBE26225E1ABAA00308CEC /* InfluPeachApp.swift */; };
 		32EBE26525E1ABAA00308CEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EBE26425E1ABAA00308CEC /* ContentView.swift */; };
 		32EBE26725E1ABAC00308CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EBE26625E1ABAC00308CEC /* Assets.xcassets */; };
@@ -38,6 +50,18 @@
 /* Begin PBXFileReference section */
 		22348BAB3A91862FECA2264C /* Pods-InfluPeachTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfluPeachTests.release.xcconfig"; path = "Target Support Files/Pods-InfluPeachTests/Pods-InfluPeachTests.release.xcconfig"; sourceTree = "<group>"; };
 		261FFD7FBBDE07D786BA1D7D /* Pods-InfluPeach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfluPeach.debug.xcconfig"; path = "Target Support Files/Pods-InfluPeach/Pods-InfluPeach.debug.xcconfig"; sourceTree = "<group>"; };
+		320D9B4225E1D7BA00A82BDB /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		32162B2E25E1AF6C0079EBA5 /* AuthHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHelper.swift; sourceTree = "<group>"; };
+		32162B3725E1AFA20079EBA5 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		32162B3C25E1B3CA0079EBA5 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		32162B4225E1B5550079EBA5 /* CustomStyledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyledTextField.swift; sourceTree = "<group>"; };
+		32162B4A25E1B9510079EBA5 /* CustomStyledTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyledTextButton.swift; sourceTree = "<group>"; };
+		32162B5025E1BD7B0079EBA5 /* TermsPrivacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsPrivacy.swift; sourceTree = "<group>"; };
+		32162B5525E1BF600079EBA5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		32162B6225E1C5830079EBA5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32162B6B25E1C7540079EBA5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		32BE1EE025E1CBC500C6E8F5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		32BE1EE525E1CDAC00C6E8F5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		32EBE25F25E1ABAA00308CEC /* InfluPeach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfluPeach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EBE26225E1ABAA00308CEC /* InfluPeachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfluPeachApp.swift; sourceTree = "<group>"; };
 		32EBE26425E1ABAA00308CEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,7 +121,6 @@
 				92CCEA88AA264FB0DB0CA114 /* Pods-InfluPeachTests.debug.xcconfig */,
 				22348BAB3A91862FECA2264C /* Pods-InfluPeachTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -111,9 +134,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		32162B2D25E1AF5C0079EBA5 /* FirebaseScripts */ = {
+			isa = PBXGroup;
+			children = (
+				32162B2E25E1AF6C0079EBA5 /* AuthHelper.swift */,
+			);
+			path = FirebaseScripts;
+			sourceTree = "<group>";
+		};
+		32162B3325E1AF8E0079EBA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32162B4125E1B5460079EBA5 /* Helpers */,
+				32162B3725E1AFA20079EBA5 /* TitleView.swift */,
+				32162B3C25E1B3CA0079EBA5 /* SignUpView.swift */,
+				32162B5525E1BF600079EBA5 /* ProfileView.swift */,
+				32162B6B25E1C7540079EBA5 /* SignInView.swift */,
+				320D9B4225E1D7BA00A82BDB /* ResetPasswordView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32162B4125E1B5460079EBA5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				32162B4225E1B5550079EBA5 /* CustomStyledTextField.swift */,
+				32162B4A25E1B9510079EBA5 /* CustomStyledTextButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		32162B4F25E1BD680079EBA5 /* HelperScripts */ = {
+			isa = PBXGroup;
+			children = (
+				32162B5025E1BD7B0079EBA5 /* TermsPrivacy.swift */,
+				32BE1EE025E1CBC500C6E8F5 /* Colors.swift */,
+			);
+			path = HelperScripts;
+			sourceTree = "<group>";
+		};
 		32EBE25625E1ABAA00308CEC = {
 			isa = PBXGroup;
 			children = (
+				32BE1EE525E1CDAC00C6E8F5 /* .gitignore */,
 				32EBE26125E1ABAA00308CEC /* InfluPeach */,
 				32EBE27325E1ABAC00308CEC /* InfluPeachTests */,
 				32EBE27E25E1ABAC00308CEC /* InfluPeachUITests */,
@@ -136,10 +199,14 @@
 		32EBE26125E1ABAA00308CEC /* InfluPeach */ = {
 			isa = PBXGroup;
 			children = (
+				32162B4F25E1BD680079EBA5 /* HelperScripts */,
+				32162B3325E1AF8E0079EBA5 /* Views */,
+				32162B2D25E1AF5C0079EBA5 /* FirebaseScripts */,
 				32EBE26225E1ABAA00308CEC /* InfluPeachApp.swift */,
 				32EBE26425E1ABAA00308CEC /* ContentView.swift */,
 				32EBE26625E1ABAC00308CEC /* Assets.xcassets */,
 				32EBE26B25E1ABAC00308CEC /* Info.plist */,
+				32162B6225E1C5830079EBA5 /* GoogleService-Info.plist */,
 				32EBE26825E1ABAC00308CEC /* Preview Content */,
 			);
 			path = InfluPeach;
@@ -279,8 +346,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BE1EE625E1CDAC00C6E8F5 /* .gitignore in Resources */,
 				32EBE26A25E1ABAC00308CEC /* Preview Assets.xcassets in Resources */,
 				32EBE26725E1ABAC00308CEC /* Assets.xcassets in Resources */,
+				32162B6325E1C5830079EBA5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +478,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				32EBE26525E1ABAA00308CEC /* ContentView.swift in Sources */,
+				32BE1EE125E1CBC500C6E8F5 /* Colors.swift in Sources */,
+				32162B5625E1BF600079EBA5 /* ProfileView.swift in Sources */,
+				320D9B4325E1D7BA00A82BDB /* ResetPasswordView.swift in Sources */,
+				32162B4325E1B5550079EBA5 /* CustomStyledTextField.swift in Sources */,
+				32162B3D25E1B3CA0079EBA5 /* SignUpView.swift in Sources */,
+				32162B6C25E1C7540079EBA5 /* SignInView.swift in Sources */,
+				32162B4B25E1B9510079EBA5 /* CustomStyledTextButton.swift in Sources */,
 				32EBE26325E1ABAA00308CEC /* InfluPeachApp.swift in Sources */,
+				32162B2F25E1AF6C0079EBA5 /* AuthHelper.swift in Sources */,
+				32162B5125E1BD7B0079EBA5 /* TermsPrivacy.swift in Sources */,
+				32162B3825E1AFA20079EBA5 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,8 +656,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = InfluPeach.ios;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.influpeach.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -601,8 +680,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = InfluPeach.ios;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.influpeach.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
