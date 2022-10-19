@@ -1,8 +1,5 @@
 # InfluPeach-Prototype
 
-## If you're coming from SF Hacks: This wasn't supposed to be an entry. This is sample code. Don't enter it as-is or you will look really dumb.
-If you want to use this code, fork it ***and read the section marked "Firebase" in the Readme***.
-
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 
 <p align="row">
